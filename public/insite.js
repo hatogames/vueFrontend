@@ -1,6 +1,6 @@
 (async function() {
   const mainPageDomain = window.location.origin;
-  const iframeURL = 'http://192.168.0.41:5173';
+  const iframeURL = 'https://vue-frontend-ruddy.vercel.app/';
   const fetchURL = "http://192.168.0.41:8000/fData";
   let fData = [];
   let cssData = {};
