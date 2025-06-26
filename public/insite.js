@@ -19,6 +19,7 @@
     }
 
     const data = await response.json();
+    console.log(data);
     fData = data.fData;
     cssData = data.cssData || {};
     iconSrc = data.iconSrc || 'https://cdn-icons-png.flaticon.com/512/2462/2462719.png';
