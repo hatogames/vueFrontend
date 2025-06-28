@@ -7,4 +7,12 @@ export default defineConfig({
   server: {
     cors: true
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',    // deine Hauptseite
+        editor: 'editor.html'    // zweite Seite
+      }
+    }
+  }
 })
