@@ -1,5 +1,4 @@
 <script setup>
-import { Analytics } from '@vercel/analytics/vue';
 import { ref, onMounted, watch, inject } from 'vue';
 import ChatContent from './components/chat-content.vue';
 
@@ -99,7 +98,6 @@ function sendSize(width, height) {
       </div>
     </div>
   </div>
-  <Analytics />
 </template>
 <style scoped>
 
