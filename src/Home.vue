@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello Editor!</h1>
+    <h1>Hello Home!</h1>
     <p>Das ist eine simple Komponente.</p>
   </div>
 </template>

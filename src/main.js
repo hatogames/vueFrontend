@@ -1,5 +1,6 @@
 import { createApp, ref } from 'vue'
 import App from './App.vue'
+import Home  from './Home.vue'
 import './style.css'
 
 //hi there
@@ -46,4 +47,12 @@ const listener = (event) => {
   window.removeEventListener('message', listener)
 }
 
-window.addEventListener('message', listener)
+if (window === window.parent) {
+  console.log("Im Hauptfenster")
+  const home = createApp(Home)
+  home.mount('#app')
+} else {
+  console.log("Im Iframe")
+  // Im Iframe: Warte auf postMessage
+  window.addEventListener('message', listener);
+}
