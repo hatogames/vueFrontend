@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Analytics />
     <h1>Hello Editor!</h1>
     <p>Das ist eine simple Komponente.</p>
   </div>
@@ -7,6 +8,8 @@
 
 <script setup>
 import { ref, onMounted, watch, inject } from 'vue';
+
+import { Analytics } from '@vercel/analytics/vue';
 
 </script>
 
