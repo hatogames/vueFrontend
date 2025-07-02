@@ -1,4 +1,5 @@
 (async function() {
+  alert('Insite Chat wird geladen...');
   const mainPageDomain = window.location.origin;
   console.log(mainPageDomain);
   const iframeURL = 'https://vue-frontend-ruddy.vercel.app/';
