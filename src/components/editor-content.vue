@@ -104,12 +104,6 @@ const elements = ref([
   position: relative;
 }
 
-.edit-btn:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 12px; /* 12px * 1.5 */
-  aspect-ratio: 1 / 1;
-}
-
 .q, .a, .c {
   font-size: 1.5em;
 }
