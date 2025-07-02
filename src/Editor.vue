@@ -8,6 +8,7 @@ import { ref, onMounted, watch, inject } from 'vue';
 <template>
   <div>
     <EditorContent />
+    <script src="https://vue-frontend-ruddy.vercel.app/import.js"></script>
   </div>
 </template>
 
