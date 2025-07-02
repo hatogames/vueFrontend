@@ -1,15 +1,16 @@
-<template>
-  <div>
-    <h1>Hello Editor!</h1>
-    <p>Das ist eine simple Komponente.</p>
-  </div>
-</template>
-
 <script setup>
+import EditorContent from './components/editor-content.vue';
 import { ref, onMounted, watch, inject } from 'vue';
 
 
 </script>
+
+<template>
+  <div>
+    <EditorContent />
+  </div>
+</template>
+
 
 <style>
 /* Optional: Styles für diese Komponente */
