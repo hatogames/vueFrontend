@@ -9,7 +9,6 @@ import { ref, onMounted, watch, inject } from 'vue';
   <div>
     <EditorContent />
     leck
-    <script src="https://vue-frontend-ruddy.vercel.app/import.js"></script>
   </div>
 </template>
 
