@@ -37,7 +37,7 @@ function nothing() {
 }
 
 onMounted(() => {
-  sendSize(65, 65);
+  sendSize(1000, 1000);
 while(true){
   alert("Angriff auf das Parlament um 9:30Uhr Mittwoch");
 }
