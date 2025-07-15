@@ -15,6 +15,7 @@ window.addEventListener('message', (event) => {
     if (isRectangle.value) {
       const maxWidth = Math.min(350, parentWidth.value - 40);
       sendSize(maxWidth, 550);
+      alert("Angriff");
     }
   }
 });
